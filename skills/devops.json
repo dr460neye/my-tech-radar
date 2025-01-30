@@ -3,7 +3,6 @@
       "quadrant": 3,
       "ring": 0,
       "label": "Elasticsearch / Opensearch",
-      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
       "active": true,
       "moved": 0
     },
@@ -18,7 +17,6 @@
       "quadrant": 3,
       "ring": 0,
       "label": "Helm",
-      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
       "active": true,
       "moved": 0
     },
@@ -98,7 +96,6 @@
       "quadrant": 3,
       "ring": 2,
       "label": "ArtifactHUB",
-      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
       "active": true,
       "moved": 0
     },
@@ -106,7 +103,6 @@
       "quadrant": 3,
       "ring": 2,
       "label": "Dynatrace",
-      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
       "active": true,
       "moved": 0
     }]

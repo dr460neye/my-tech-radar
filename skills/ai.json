@@ -23,7 +23,6 @@
 "quadrant": 0,
 "ring": 0,
 "label": "Apache Cassandra",
-"link": "https://engineering.zalando.com/tags/cassandra.html",
 "active": true,
 "moved": 0
 },
@@ -31,7 +30,6 @@
 "quadrant": 0,
 "ring": 0,
 "label": "Amazon ElastiCache",
-"link": "https://engineering.zalando.com/tags/redis.html",
 "active": true,
 "moved": 1
 },
@@ -39,7 +37,6 @@
 "quadrant": 0,
 "ring": 0,
 "label": "Akka",
-"link": "https://engineering.zalando.com/tags/redis.html",
 "active": true,
 "moved": 1
 },
@@ -47,7 +44,6 @@
 "quadrant": 0,
 "ring": 0,
 "label": "MQTT",
-"link": "https://engineering.zalando.com/tags/redis.html",
 "active": true,
 "moved": 1
 },
