@@ -1,0 +1,107 @@
+[
+{
+  "quadrant": 2,
+  "ring": 0,
+  "label": "Python",
+  "link": "https://engineering.zalando.com/tags/golang.html",
+  "active": true,
+  "moved": 0
+},
+{
+"quadrant": 2,
+"ring": 0,
+"label": "CMD",
+"link": "https://engineering.zalando.com/tags/golang.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 2,
+"ring": 0,
+"label": "Bash Scripts",
+"link": "https://engineering.zalando.com/tags/golang.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 2,
+"ring": 0,
+"label": "Terraform",
+"link": "https://engineering.zalando.com/tags/golang.html",
+"active": true,
+"moved": 0
+},
+
+{
+"quadrant": 2,
+"ring": 0,
+"label": "Plain JavaScript, JQuery",
+"link": "https://engineering.zalando.com/tags/javascript.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 2,
+"ring": 0,
+"label": "OpenAPI (Swagger)",
+"link": "https://engineering.zalando.com/tags/openapi.html",
+"active": true,
+"moved": 0
+},
+
+
+
+{
+"quadrant": 2,
+"ring": 1,
+"label": "Go",
+"link": "https://engineering.zalando.com/tags/golang.html",
+"active": true,
+"moved": 0
+},
+
+
+
+
+{
+"quadrant": 2,
+"ring": 2,
+"label": "Scala",
+"link": "https://engineering.zalando.com/tags/scala.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 2,
+"ring": 2,
+"label": "AWS Lambda",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 2,
+"ring": 2,
+"label": "Java & Spring",
+"link": "https://engineering.zalando.com/tags/golang.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 2,
+"ring": 2,
+"label": "GraphQL",
+"link": "https://engineering.zalando.com/tags/graphql.html",
+"active": true,
+"moved": 0
+},
+
+
+
+{
+"quadrant": 2,
+"ring": 3,
+"label": "R",
+"active": true,
+"moved": 0
+}
+]

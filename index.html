@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tech Radar Skillset of Oliver Drewes</title>
+
+    <script src="https://d3js.org/d3.v4.min.js"></script>
+    <script src="./radar.js"></script>
+</head>
+<body style="--bleeding: 0.5cm;--margin: 1cm;">
+<div class="page" size="A4">
+
+
+<div class="graph">
+    <div class="div-table-col">
+            <svg id="radar"></svg>
+
+
+            <script>
+                async function loadData() {
+                    try {
+
+                        const [aijson, infrajson, devopsjson, langjson] = await Promise.all([
+                            fetch('./skills/ai.json').then(res => res.json()),
+                            fetch('./skills/infra.json').then(res => res.json()),
+                            fetch('./skills/devops.json').then(res => res.json()),
+                            fetch('./skills/lang.json').then(res => res.json())
+                        ]);
+
+
+                        let entries = [].concat(langjson,devopsjson, infrajson, aijson);
+                        return entries;
+                    } catch (error) {
+                        console.error("Error loading JSON files:", error);
+                        return null;
+                    }
+
+                }
+
+
+                loadData().then(data => {
+                    if (data.length > 0) {
+                        console.log("Combined JSON entries:", data);
+                    } else {
+                        console.log("No data loaded.");
+                    }
+                    return data;
+
+
+                }).then(function(data) {
+                    console.log(data);
+                    radar_visualization({
+                        repo_url: "https://github.com/dr460neye/my-tech-radar",
+                        title: "Tech Radar Skillset of Oliver Drewes",
+                        date: "30.01.2025",
+                        width:502,
+                        height:502,
+                        scale:1,
+                        colors: {
+                            background: "#fff",
+                            grid: "#000",
+                            inactive: "#ddd"
+                        },
+                        quadrants: [
+                            { name: "DATA & AI" },
+
+                            { name: "Infrastructure" },
+                            { name: "Languages" },
+                            { name: "DevOps & Tooling" },
+
+                        ],
+                        chart: {
+                            fontsize: "24px"
+                        },
+                        rings: [
+                            { name: "HANDS-ON", color: "#5ba300" , radius: 100, fill:"#bbcff0", id:"1", strokewidth: "3px"},
+                            { name: "ASSESSED AND TOUCHED", color: "#c7ba00", radius: 150, fill:"#a7b9d6", id:"2", strokewidth: "3px"},
+                            { name: "ARCHITECTURE AND LEAD", color: "#009eb0", radius: 200, fill:"#bbcff0", id:"3", strokewidth: "3px"},
+                            { name: "PRIVATE USE", color: "#e09b96", radius: 250, fill:"#a7b9d6" , id:"4", strokewidth: "3px"}
+                        ],
+                        entries: data,
+                        print_layout: false,
+                        table_layout: true
+                    });
+                }).catch(function(err) {
+                    console.log('Error loading config.json', err);
+                });
+            </script>
+    </div>
+    <div >
+    <h3>What shows the Tech Radar?</h3>
+
+    <p>
+        The Tech Radar has four different categories and four different levels of experience and an alternative visualization for a matrix oriented dataset.
+    </p>
+    <div class="notes"><p><strong>HANDS-ON</strong> Technologies used hands-on by either working or developing with it.</p></div>
+    <div class="notes"><p><strong>ASSESSED AND INVESTIGATED</strong> Technologies I used while doing ADRs or other investigations.</p></div>
+    <div class="notes"><p><strong>ARCHITECTURE AND LEAD</strong> Contains all software used by me in an architecture or lead role.</p></div>
+    <div class="notes"><p><strong>SMALL & PRIVATE USE</strong> Technologies I used either for private purposes or micro tasks and duties. e.g. an AWS Cost analysis with AWS Athena</p></div>
+
+  </div>
+</div>
+
+<div style="clear: both;" ></div>
+    <center><div>
+        <div class="div-table" id="radarlegend">
+        </div>
+    </div></center>
+</div>
+<link rel="stylesheet" href="./radar.css">
+</body>
+</html>

@@ -1,0 +1,129 @@
+[{
+  "quadrant": 0,
+  "ring": 0,
+  "label": "AWS EMR",
+  "active": true,
+  "moved": 0
+},
+{
+"quadrant": 0,
+"ring": 0,
+"label": "Stable Diffusion WebUI",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 0,
+"label": "Spark",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 0,
+"label": "Apache Cassandra",
+"link": "https://engineering.zalando.com/tags/cassandra.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 0,
+"label": "Amazon ElastiCache",
+"link": "https://engineering.zalando.com/tags/redis.html",
+"active": true,
+"moved": 1
+},
+{
+"quadrant": 0,
+"ring": 0,
+"label": "Akka",
+"link": "https://engineering.zalando.com/tags/redis.html",
+"active": true,
+"moved": 1
+},
+{
+"quadrant": 0,
+"ring": 0,
+"label": "MQTT",
+"link": "https://engineering.zalando.com/tags/redis.html",
+"active": true,
+"moved": 1
+},
+
+
+
+{
+"quadrant": 0,
+"ring": 1,
+"label": "AWS S3",
+"active": true,
+"moved": 0
+},
+
+
+
+
+
+{
+"quadrant": 0,
+"ring": 2,
+"label": "Hadoop, Hive & HBASE",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 2,
+"label": "MongoDB",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 2,
+"label": "ZooKeeper",
+"active": true,
+"moved": 0
+},
+
+
+
+
+{
+"quadrant": 0,
+"ring": 3,
+"label": "AWS Athena",
+"active": true,
+"moved": 1
+},
+{
+"quadrant": 0,
+"ring": 3,
+"label": "AWS Glue",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 3,
+"label": "AWS DynamoDB",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 3,
+"label": "MySQL",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 0,
+"ring": 3,
+"label": "N8N",
+"active": true,
+"moved": 0
+}]
+

@@ -1,0 +1,112 @@
+[
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Elasticsearch / Opensearch",
+      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Amazon EC2",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Helm",
+      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "OpenTelemetry",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Argo",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "GitOps via Gitlab",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Maven",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "KubeCost / OpenCost",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Grafana, Prometheus, Alertmanager",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 0,
+      "label": "Logshippers Logstash & FluentD",
+      "active": true,
+      "moved": 0
+    },
+
+
+
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Graylog",
+      "active": true,
+      "moved": 0
+    },
+
+
+
+    {
+      "quadrant": 3,
+      "ring": 1,
+      "label": "Jenkins",
+      "active": true,
+      "moved": 0
+    },
+
+
+
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "ArtifactHUB",
+      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
+      "active": true,
+      "moved": 0
+    },
+    {
+      "quadrant": 3,
+      "ring": 2,
+      "label": "Dynatrace",
+      "link": "https://engineering.zalando.com/tags/elasticsearch.html",
+      "active": true,
+      "moved": 0
+    }]

@@ -1,0 +1,140 @@
+[{
+  "quadrant": 1,
+  "ring": 0,
+  "label": "PostgreSQL",
+  "link": "https://engineering.zalando.com/tags/postgresql.html",
+  "active": true,
+  "moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "Redis",
+"link": "https://engineering.zalando.com/tags/redis.html",
+"active": true,
+"moved": -1
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "AWS EKS",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "AWS MSK",
+"active": true,
+"moved": 0
+},
+
+{
+"quadrant": 1,
+"ring": 0,
+"label": "AWS ElastiCache",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "AWS RDS",
+"active": true,
+"moved": 0
+},
+
+{
+"quadrant": 1,
+"ring": 0,
+"label": "Docker",
+"link": "https://engineering.zalando.com/tags/docker.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "Kubernetes",
+"link": "https://engineering.zalando.com/tags/kubernetes.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "Ingress (NginX, Traefik)",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "DCOS / Apache Mesos",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 0,
+"label": "CEPH",
+"active": true,
+"moved": 0
+},
+
+
+
+
+{
+"quadrant": 1,
+"ring": 1,
+"label": "RabbitMQ",
+"link": "https://engineering.zalando.com/tags/rabbitmq.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 1,
+"label": "Crossplane",
+"link": "https://engineering.zalando.com/tags/rabbitmq.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 1,
+"label": "Kyverno",
+"link": "https://engineering.zalando.com/tags/rabbitmq.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 1,
+"label": "Ansible",
+"link": "https://engineering.zalando.com/tags/rabbitmq.html",
+"active": true,
+"moved": 0
+},
+
+
+
+{
+"quadrant": 1,
+"ring": 2,
+"label": "LinkerD",
+"link": "https://engineering.zalando.com/tags/rabbitmq.html",
+"active": true,
+"moved": 0
+},
+{
+"quadrant": 1,
+"ring": 2,
+"label": "Open Policy Agents",
+"link": "https://engineering.zalando.com/tags/rabbitmq.html",
+"active": true,
+"moved": 0
+}]
+
+
